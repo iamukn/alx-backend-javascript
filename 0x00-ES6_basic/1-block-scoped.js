@@ -1,9 +1,8 @@
 export default function taskBlock(trueOrFalse) {
-  var task = false;
-  var task2 = true;
+  var task;
+  var task2;
 
   if (trueOrFalse) {
-    "use strict";
 
     var task = true;
     var task2 = false;

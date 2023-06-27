@@ -1,1 +1,1 @@
-EcmaScript 6 Basics
+Introduction to EcmaScript 6 Basics

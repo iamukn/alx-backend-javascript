@@ -1,3 +1,8 @@
 export default function getResponseFromAPI() {
-  return Promise.resolve("hello world");
+  const data = new Promise((res, rej) => {
+    setTimeout(() => {
+      res(2 * 2);
+    }, 5000);
+  });
+  return data.then((res) => console.log(res)).catch((err) => console.err(err));
 }

@@ -11,6 +11,3 @@ export default function getFullResponseFromAPI(success) {
     }
 });
 }
-
-console.log(getFullResponseFromAPI(true));
-console.log(getFullResponseFromAPI(false));

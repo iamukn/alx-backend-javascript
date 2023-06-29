@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import { uploadPhoto, createUser } from './utils';
 
-export default function handleProfileSignup() {
+export default function handleProfileSignup () {
   const photo = uploadPhoto();
   const user = createUser();
 

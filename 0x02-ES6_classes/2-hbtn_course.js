@@ -1,5 +1,5 @@
 export default class HolbertonCourse {
-  constructor (name, length, students) {
+  constructor(name, length, students) {
     if (typeof name === 'string') {
       this._name = name;
     } else {
@@ -19,11 +19,11 @@ export default class HolbertonCourse {
     }
   }
 
-  get name () {
+  get name() {
     return this._name;
   }
 
-  set name (val) {
+  set name(val) {
     if (typeof val === 'string') {
       this._name = val;
     } else {
@@ -31,11 +31,11 @@ export default class HolbertonCourse {
     }
   }
 
-  get length () {
+  get length() {
     return this._length;
   }
 
-  set length (val) {
+  set length(val) {
     if (typeof val === 'number') {
       this._length = val;
     } else {
@@ -43,11 +43,11 @@ export default class HolbertonCourse {
     }
   }
 
-  get students () {
+  get students() {
     return this._students;
   }
 
-  set students (val) {
+  set students(val) {
     if (typeof val === 'object') {
       this._students = val;
     } else {

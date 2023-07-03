@@ -24,4 +24,3 @@ export default class Airport {
     return `[object ${this.code}]`;
   }
 }
-
